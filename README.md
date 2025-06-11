@@ -1,5 +1,5 @@
 # Indy7-rnb_control-bulletSim
-
+==================
 # Instruction for RNB-Control Framework {#mainpage}
 
 **RNB-Control** is a control framework to enable agile development of control algorithms for robot systems.  
