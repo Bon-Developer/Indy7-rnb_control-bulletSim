@@ -1,0 +1,27 @@
+<library path="lib/libpanda_control">
+  <class name="panda_control/JointPositionExampleController" type="panda_control::JointPositionExampleController" base_class_type="controller_interface::ControllerBase">
+    <description>
+      A controller that executes a short motion based on joint positions to demonstrate correct usage
+    </description>
+  </class>
+  <class name="panda_control/JointPositionRepeater" type="panda_control::JointPositionRepeater" base_class_type="controller_interface::ControllerBase">
+    <description>
+      A controller that executes a short motion based on joint positions to demonstrate correct usage
+    </description>
+  </class>
+  <class name="panda_control/JointControlRNB" type="panda_control::JointControlRNB" base_class_type="controller_interface::ControllerBase">
+    <description>
+      A controller that tracks a cartesian path with a joint impedance controller that compensates coriolis torques. The torque commands are compared to measured torques in Console outputs.
+    </description>
+  </class>
+  <class name="panda_control/JointImpedanceRepeater" type="panda_control::JointImpedanceRepeater" base_class_type="controller_interface::ControllerBase">
+    <description>
+      A controller that tracks a cartesian path with a joint impedance controller that compensates coriolis torques. The torque commands are compared to measured torques in Console outputs.
+    </description>
+  </class>
+  <class name="panda_control/JointVelocityRepeater" type="panda_control::JointVelocityRepeater" base_class_type="controller_interface::ControllerBase">
+    <description>
+      A controller that tracks a cartesian path with a joint impedance controller that compensates coriolis torques. The torque commands are compared to measured torques in Console outputs.
+    </description>
+  </class>
+</library>

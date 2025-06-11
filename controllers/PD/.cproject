@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.config.gnu.cygwin.so.release.1700263463">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.cygwin.so.release.1700263463" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/PD"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/PD/Release"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="PD" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.Cygwin_PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="so" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.sharedLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.sharedLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.cygwin.so.release.1700263463" name="Release" optionalBuildProperties="org.eclipse.cdt.docker.launcher.containerbuild.property.selectedvolumes=,org.eclipse.cdt.docker.launcher.containerbuild.property.volumes=" parent="cdt.managedbuild.config.gnu.cygwin.so.release">
+					<folderInfo id="cdt.managedbuild.config.gnu.cygwin.so.release.1700263463." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.cygwin.so.release.1548301656" name="Cygwin GCC" superClass="cdt.managedbuild.toolchain.gnu.cygwin.so.release">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.cygwin.so.release.1680106377" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.cygwin.so.release"/>
+							<builder buildPath="${workspace_loc:/PD}/Release" id="cdt.managedbuild.target.gnu.builder.cygwin.so.release.264024573" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.cygwin.so.release"/>
+							<tool command="i686-unknown-linux-gnu-as" id="cdt.managedbuild.tool.gnu.assembler.cygwin.so.release.1538083596" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.cygwin.so.release">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1623482785" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.cygwin.base.1424314962" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.cygwin.base"/>
+							<tool command="i686-unknown-linux-gnu-g++" id="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.so.release.1911695200" name="Cygwin C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.so.release">
+								<option id="gnu.cpp.compiler.cygwin.so.release.option.optimization.level.1333964146" name="Optimization Level" superClass="gnu.cpp.compiler.cygwin.so.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option defaultValue="gnu.cpp.compiler.debugging.level.none" id="gnu.cpp.compiler.cygwin.so.release.option.debugging.level.117398079" name="Debug Level" superClass="gnu.cpp.compiler.cygwin.so.release.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.warnings.extrawarn.568281682" name="Extra warnings (-Wextra)" superClass="gnu.cpp.compiler.option.warnings.extrawarn" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.preprocessor.def.1196386596" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__XENO__"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.397220807" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${NRMK_XENO_PATH}\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${NRMK_CORE_INC_PATH}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${NRMK_HELPER_INC_PATH}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${NRMK_HELPER_INC_PATH}\hw&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${NRMK_EIGEN_INC_PATH}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${NRMK_POCO_INC_PATH}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${NRMK_INSTALL_PATH}\NRMKFoundation\core\3rdparty\json\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${NRMK_INSTALL_PATH}\NRMKFoundation\core\3rdparty\cryptopp\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${NRMK_INSTALL_PATH}\NRMKFoundation\core\3rdparty\NRMKFramework\include&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.1718632260" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin"/>
+							</tool>
+							<tool command="i686-unknown-linux-gnu-gcc" id="cdt.managedbuild.tool.gnu.c.compiler.cygwin.so.release.1973403537" name="Cygwin C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.cygwin.so.release">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.cygwin.so.release.option.optimization.level.67693129" name="Optimization Level" superClass="gnu.c.compiler.cygwin.so.release.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option defaultValue="gnu.c.debugging.level.none" id="gnu.c.compiler.cygwin.so.release.option.debugging.level.1113545969" name="Debug Level" superClass="gnu.c.compiler.cygwin.so.release.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.warnings.extrawarn.1465556197" name="Extra warnings (-Wextra)" superClass="gnu.c.compiler.option.warnings.extrawarn" useByScannerDiscovery="false" value="true" valueType="boolean"/>
+								<option id="gnu.c.compiler.option.misc.other.1735745662" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-std=c++14 -fmessage-length=0 -ffast-math" valueType="string"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.include.paths.1308697624" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${NRMK_XENO_PATH}\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${NRMK_CORE_INC_PATH}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${NRMK_HELPER_INC_PATH}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${NRMK_HELPER_INC_PATH}\hw&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${NRMK_EIGEN_INC_PATH}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${NRMK_POCO_INC_PATH}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${NRMK_INSTALL_PATH}\NRMKFoundation\core\3rdparty\json\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${NRMK_INSTALL_PATH}\NRMKFoundation\core\3rdparty\cryptopp\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${NRMK_INSTALL_PATH}\NRMKFoundation\core\3rdparty\NRMKFramework\include&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.1099712881" superClass="cdt.managedbuild.tool.gnu.c.compiler.input.cygwin"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.cygwin.so.release.2046259443" name="Cygwin C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.cygwin.so.release">
+								<option defaultValue="true" id="gnu.c.link.cygwin.so.release.option.shared.1599211828" name="Shared (-shared)" superClass="gnu.c.link.cygwin.so.release.option.shared" valueType="boolean"/>
+							</tool>
+							<tool command="i686-unknown-linux-gnu-g++" id="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.so.release.516778323" name="Cygwin C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.so.release">
+								<option defaultValue="true" id="gnu.cpp.link.cygwin.so.release.option.shared.301924442" name="Shared (-shared)" superClass="gnu.cpp.link.cygwin.so.release.option.shared" valueType="boolean"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.link.option.libs.1556786281" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="native"/>
+									<listOptionValue builtIn="false" value="xenomai"/>
+									<listOptionValue builtIn="false" value="rt"/>
+									<listOptionValue builtIn="false" value="rtdm"/>
+									<listOptionValue builtIn="false" value="NRMKCore"/>
+									<listOptionValue builtIn="false" value="NRMKHelperi686"/>
+									<listOptionValue builtIn="false" value="NRMKFramework"/>
+									<listOptionValue builtIn="false" value="PocoNet"/>
+									<listOptionValue builtIn="false" value="PocoFoundation"/>
+									<listOptionValue builtIn="false" value="jsoncpp"/>
+									<listOptionValue builtIn="false" value="cryptopp"/>
+								</option>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.link.option.paths.927837202" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${NRMK_XENO_PATH}\lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${NRMK_LIB_PATH}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${NRMK_POCO_LIB_PATH}\i686&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${NRMK_INSTALL_PATH}\NRMKFoundation\core\3rdparty\json\lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${NRMK_INSTALL_PATH}\NRMKFoundation\core\3rdparty\cryptopp\lib&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${NRMK_INSTALL_PATH}\NRMKFoundation\core\3rdparty\NRMKFramework\lib&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.662555640" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="PD.cdt.managedbuild.target.gnu.cygwin.so.1084344764" name="Shared Library" projectType="cdt.managedbuild.target.gnu.cygwin.so"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.so.debug.1367101646;cdt.managedbuild.config.gnu.cygwin.so.debug.1367101646.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.so.debug.896549456;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.314489018">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.so.release.1700263463;cdt.managedbuild.config.gnu.cygwin.so.release.1700263463.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.so.release.1973403537;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.1099712881">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.so.release.1700263463;cdt.managedbuild.config.gnu.cygwin.so.release.1700263463.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.so.release.1911695200;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.1718632260">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.so.debug.1367101646;cdt.managedbuild.config.gnu.cygwin.so.debug.1367101646.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.so.debug.1868079824;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.322488164">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+</cproject>
